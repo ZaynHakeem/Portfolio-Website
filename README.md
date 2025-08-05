@@ -1,76 +1,95 @@
-<h2 align="center">
-  Portfolio Website - v2.0<br/>
-  <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>
-</h2>
-<div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
-</div>
+# 💼 Dalitso Nyirenda — Developer Portfolio
 
-<br/>
+This is my personal developer portfolio website, showcasing my projects, skills, and background as a Computer Science student at Grambling State University.
 
-<center>
+It is built using **React**, enhanced with custom animations, and fully responsive across devices.  
+Originally forked and inspired by [@soumyajit4419's developer portfolio](https://github.com/soumyajit4419/Portfolio), with several customizations added.
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
-![GitHub forks](https://img.shields.io/github/forks/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge)
+---
 
-</center>
+## 🚀 Live Demo
 
-<h3 align="center">
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Request Feature</a>
-</h3>
+👉 [Click here to view the live site](https://your-username.github.io/Portfolio-Website)  
+(Will update once deployed via GitHub Pages, Vercel, or Netlify)
 
-## TL;DR
+---
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). Thanks!
+## 🛠️ Features & Customizations
 
-## Built With
+- ⚡ **Custom Preloader** — Custom Lottie animation with binary code effect
+- 💡 **Fully Responsive** — Optimized for all screen sizes
+- 🛠️ **Project Showcase** — Personalized project section with real-world apps
+- 🧠 **Tech Stack Display** — Includes my own technology and tools
+- 🎯 **Favicon & Identity** — Custom branding and visuals
+- ✨ **Smooth Animations** — Framer Motion & Lottie used for engaging transitions
 
-My personal portfolio <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
+---
 
-This project was built using these technologies.
+## 🧰 Tech Stack
 
-- React.js
-- Node.js
-- Express.js
-- CSS3
-- VsCode
-- Vercel
+- **Frontend:** React, HTML5, CSS3, JavaScript
+- **Animations:** Lottie, Framer Motion
+- **Version Control:** Git, GitHub
+- **Deployment (planned):** GitHub Pages / Vercel / Netlify
 
-## Features
+---
 
-**📖 Multi-Page Layout**
+## 📁 Folder Structure
 
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
+```
+Portfolio/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/    # Reusable UI components (NavBar, Projects, etc.)
+│   ├── Assets/        # Images, Lottie JSON files, and other static assets
+│   ├── App.js         # Root component
+│   └── index.js       # Entry point
+```
 
-**📱 Fully Responsive**
+---
 
-## Getting Started
+## 🧑‍💻 Setup Instructions
 
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/ZaynHakeem/Portfolio-Website.git
+   cd Portfolio-Website
+   ```
 
-## 🛠 Installation and Setup Instructions
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-1. Installation: `npm install`
+3. **Run locally**
+   ```bash
+   npm start
+   ```
 
-2. In the project directory, you can run: `npm start`
+4. **Build for production**
+   ```bash
+   npm run build
+   ```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
+---
 
-## Usage Instructions
+## ✍️ Credit
 
-Open the project folder and Navigate to `/src/components/`. <br/>
-You will find all the components used and you can edit your information accordingly.
+This portfolio is originally based on  
+➡️ [Soumyajit's Portfolio](https://github.com/soumyajit4419/Portfolio)  
+Much appreciation for his work and open-source contribution.
 
-### Show your support
+---
 
-Give a ⭐ if you like this website!
+## 📬 Contact Me
 
-<a href="https://www.buymeacoffee.com/soumyajit4419" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
+- **Email:** dnyirend@gsumail.gram.edu  
+- **LinkedIn:** [Dalitso Nyirenda](https://www.linkedin.com/in/dalitso-nyirenda88)
+
+---
+
+## 📝 License
+
+This project is open source for learning and showcasing purposes.  
+Original structure credited to [@soumyajit4419](https://github.com/soumyajit4419).
