@@ -8,33 +8,34 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br />
-            I am currently employed as a software developer at Juspay.
-            <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            Hey there!! I am <span className="purple">Dalitso Nyirenda</span>
+            , a proud International Student from <span className="purple"> Zambia</span>
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            I am currently a sophomore at Grambling State University, where I’m grinding towards a BSc in Computer Science with a Business minor.
+            <br />
+            <br />
+            I have completed courses in AI, Design Thinking, and Consulting
+            <br />
+            <br />
+            When I'm not grining on my computer, you can find me:
           </p>
           <ul>
             <li className="about-activity">
               <ImPointRight /> Playing Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Playing Basketball
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Reading My Bible
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "For the Lord God is our sun and our shield. He gives us grace and glory. The Lord will withhold no good thing from those who do what is right."{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Psalms 84:11</footer>
         </blockquote>
       </Card.Body>
     </Card>

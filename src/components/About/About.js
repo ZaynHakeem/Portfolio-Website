@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
-import Github from "./Github";
-import Techstack from "./Techstack";
+import Languages from "./Languages";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
-import Toolstack from "./Toolstack";
+import homeLogo from "../../Assets/home-main.png";
+import Tools from "./Tools";
+import TechLibraries from "./TechLibraries";
 
 function About() {
   return (
@@ -22,7 +22,7 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'M</strong>
+              Discover the <strong className="purple">Player</strong> Behind the <strong className="purple">Name</strong>
             </h1>
             <Aboutcard />
           </Col>
@@ -31,21 +31,29 @@ function About() {
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            <img 
+            src={homeLogo} 
+            alt="about" 
+            className="img-fluid"
+            style={{ borderRadius: "50px", width: "80%", marginLeft: "50px" }} />
           </Col>
         </Row>
         <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
+          <strong className="purple">Languages & Frameworks</strong> I've used
         </h1>
 
-        <Techstack />
+        <Languages />
 
         <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
+          <strong className="purple">Tools</strong> I've used
         </h1>
-        <Toolstack />
+        <Tools />
 
-        <Github />
+        <h1 className="project-heading">
+          <strong className="purple">Technologies & Libraries</strong>
+        </h1>
+        <TechLibraries />
+
       </Container>
     </Container>
   );

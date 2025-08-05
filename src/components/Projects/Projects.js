@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import leaf from "../../Assets/Projects/FacialRecognition.webp";
+import emotion from "../../Assets/Projects/Invizio.webp";
+import editor from "../../Assets/Projects/PasswordManager.webp";
+import chatify from "../../Assets/Projects/FlappyBird.webp";
+import suicide from "../../Assets/Projects/GoodVibes.webp";
+import bitsOfCode from "../../Assets/Projects/FakeNews.webp";
 
 function Projects() {
   return (
@@ -25,10 +25,10 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Flappy Bird Clone"
+              description="A clone of the classic Flappy Bird game built with Unity and C#. Features include real-time score tracking, obstacle generation, and a responsive design."
+              ghLink="https://github.com/ZaynHakeem/Flappy-bird-clone"
+            // demoLink: will be added later"
             />
           </Col>
 
@@ -36,10 +36,10 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="AI Fake News Detector"
+              description="A web application that uses machine learning to detect and flag fake news articles. Built with Flask and TensorFlow."
+              ghLink="https://github.com/ZaynHakeem/AI-fake-news-detector"
+            // demoLink: will be added later"
             />
           </Col>
 
@@ -47,10 +47,10 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Password Manager"
+              description="A simple GUI-based password manager built with Python. It allows users to securely store and manage their passwords."
+              ghLink="https://github.com/ZaynHakeem/password-manager"             
+            // demoLink: Will be added later"
             />
           </Col>
 
@@ -58,21 +58,22 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Facial Recognition System"
+              description="A facial recognition system that uses OpenCV and deep learning to identify individuals in images. It includes features for face detection, recognition, and a user-friendly interface."
+              ghLink="https://github.com/ZaynHakeem/Facial-Recognition-System"
+            // demoLink: Will be added later"
             />
+
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Good Vibes"
+              description="A spiritually grounded wellness app designed to uplift users through daily scripture, positive affirmations, mood tracking, and guided reflections. Good Vibes combines mental health support with faith-based encouragement, helping users cultivate peace and purpose in a chaotic world.Made with React, Tailwind CSS, Framer Motion and Firebase."
+              ghLink="https://github.com/ZaynHakeem/Good-Vibes"
+              // demoLink: Will be added later"
             />
           </Col>
 
@@ -80,11 +81,11 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Invizio"
+              description="A streamlined inventory management system built for small businesses and individual entrepreneurs to monitor stock levels, track item details, and get low-stock alerts in real-time. Designed with simplicity, speed, and mobile responsiveness in mind.
+                          Created with React, Node.js, Express, MongoDB"
+              ghLink="https://github.com/ZaynHakeem/Invizio"
+              // demoLink: Will be added later"
             />
           </Col>
         </Row>
