@@ -3,13 +3,12 @@
 This is my personal developer portfolio website, showcasing my projects, skills, and background as a Computer Science student at Grambling State University.
 
 It is built using **React**, enhanced with custom animations, and fully responsive across devices.  
-Originally forked and inspired by [@soumyajit4419's developer portfolio](https://github.com/soumyajit4419/Portfolio), with several customizations added.
 
 ---
 
 ## 🚀 Live Demo
 
-👉 [Click here to view the live site](https://your-username.github.io/Portfolio-Website)  
+👉 [Click here to view the live site](https://tobis-portfolio-website.vercel.app/)  
 (Will update once deployed via GitHub Pages, Vercel, or Netlify)
 
 ---
