@@ -8,8 +8,7 @@ It is built using **React**, enhanced with custom animations, and fully responsi
 
 ## 🚀 Live Demo
 
-👉 [Click here to view the live site](https://tobis-portfolio-website.vercel.app/)  
-(Will update once deployed via GitHub Pages, Vercel, or Netlify)
+👉 Click to view the site in [Vercel](https://tobis-portfolio-website.vercel.app/) or [GitHub Pages](https://zaynhakeem.github.io/)
 
 ---
 
