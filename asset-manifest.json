@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Portfolio-Website/static/css/main.2916ddf0.css",
+    "main.js": "/Portfolio-Website/static/js/main.80e0461c.js",
+    "static/js/415.4d6acbeb.chunk.js": "/Portfolio-Website/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Portfolio-Website/static/js/787.1ed0c42c.chunk.js",
+    "static/media/home-main.png": "/Portfolio-Website/static/media/home-main.080d79d435c627363f1c.png",
+    "static/media/about.png": "/Portfolio-Website/static/media/about.71298f2aa4c59aef7346.png",
+    "static/media/home3-bg.jpg": "/Portfolio-Website/static/media/home3-bg.566ad7078719d8736c93.jpg",
+    "static/media/Resume.pdf": "/Portfolio-Website/static/media/Resume.04b461e971f000871769.pdf",
+    "static/media/logo.png": "/Portfolio-Website/static/media/logo.0e787209686f6658f131.png",
+    "static/media/FakeNews.webp": "/Portfolio-Website/static/media/FakeNews.34e8b96eb09e25e82cf3.webp",
+    "static/media/FlappyBird.webp": "/Portfolio-Website/static/media/FlappyBird.2240227e72db894858d0.webp",
+    "static/media/FacialRecognition.webp": "/Portfolio-Website/static/media/FacialRecognition.2fcbe780e8b78354cdd5.webp",
+    "static/media/PasswordManager.webp": "/Portfolio-Website/static/media/PasswordManager.be1ace29e061b3fe1769.webp",
+    "static/media/Invizio.webp": "/Portfolio-Website/static/media/Invizio.0907e3fe6ebabe48074f.webp",
+    "static/media/GoodVibes.webp": "/Portfolio-Website/static/media/GoodVibes.46e4e18e197803520cfa.webp",
+    "index.html": "/Portfolio-Website/index.html",
+    "main.2916ddf0.css.map": "/Portfolio-Website/static/css/main.2916ddf0.css.map",
+    "main.80e0461c.js.map": "/Portfolio-Website/static/js/main.80e0461c.js.map",
+    "415.4d6acbeb.chunk.js.map": "/Portfolio-Website/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Portfolio-Website/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2916ddf0.css",
+    "static/js/main.80e0461c.js"
+  ]
+}
